@@ -1,0 +1,82 @@
+.pg-work {
+    .section__hero {
+        height: 19rem;
+
+        .container {
+            .heroTitle {
+
+                h1 {
+                    transition: 100ms;
+                }
+                    p {
+                        color: #BABABA;
+                     
+                  
+                    }
+            }
+        }
+        
+    }
+
+    .section__work {
+        .container {
+            .row {
+                .work__cards {
+                    .card__item {
+                        background-color: #333333;
+                        padding: 50px 0 50px 50px;
+                        border-left: 1px #fff;
+                        border-bottom: 1px #fff;
+                        overflow: hidden;
+
+                        .card__item--link {
+                            a {
+                                display: flex;
+                                align-items: center;
+                                p {
+                                    color: #BABABA;
+                                }
+
+                                i.line {
+                                    display: inline-block;
+                                    border-top: 1px solid;
+                                    width: 40px;
+                                    margin-left: 20px;
+                                    color: #BABABA;
+
+                                } 
+
+                                i.arrow {
+                                    display: inline-block;
+                                    border-top: 1px solid;
+                                    border-right: 1px solid;
+                                    width: 10px;
+                                    height: 10px;
+                                    margin-left: -10px;
+                                    transform: rotate(45deg);
+                                    color: #BABABA;
+
+                                } 
+                            }
+                        }
+
+                        .card__item--photo {
+                            display: flex;
+                            align-items: flex-end;
+                            margin: 0 -46px;
+
+                            img {
+                                margin-left: 50px;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+
+
+                    
+                    }
+                }
+            }
+        }
+    }
+}

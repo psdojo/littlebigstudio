@@ -1,0 +1,19 @@
+
+@import 'partials/base';
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+
+
+@import 'mobile/layout';
+@import 'mobile/components';
+@import 'mobile/pages/home';
+@import 'mobile/pages/work';
+@import 'mobile/pages/connect';
+
+
+
+@import 'desktop/layout-d';
+@import 'desktop/components-d';
+@import 'desktop/pages/home-d';
+@import 'desktop/pages/work-d';
+@import 'desktop/pages/connect-d';  
